@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppListaSupermercado.View.NovoProduto"
+             Title="Novo Produto"
+             BackgroundColor="Blue">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Salvar" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="Nome Produto:" TextColor="White"/>
+            <Entry x:Name="txt_descricao" TextColor="White"/>
+
+            <Label Text="Quantidade:"  TextColor="White"/>
+            <Entry x:Name="txt_quantidade" TextColor="White"/>
+
+            <Label Text= "Preço Unitário"  TextColor="White"/>
+            <Entry x:Name="txt_preco_unitario" TextColor="White"/>
+            
+          
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
